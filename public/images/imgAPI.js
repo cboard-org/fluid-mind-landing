@@ -29,11 +29,11 @@ const imgAPI = {
     'https://via.placeholder.com/640x425/c4cdff/757575',
   ],
   crypto: [
-    '/images/crypto/hexa-orange.png',
-    '/images/crypto/hexa-green.png',
-    '/images/crypto/hexa-orange.png',
-    '/images/crypto/hexa-green.png',
-    'https://via.placeholder.com/600x341/cac142/FFFFFF',
+    '/images/crypto/promo-1.png',
+    '/images/crypto/promo-2.png',
+    '/images/crypto/promo-3.png',
+    '/images/crypto/promo-4.png',
+    '/images/app/full_options.png',
     'https://via.placeholder.com/1280x677/204473/FFFFFF',
     '/images/crypto/crypto_laptop.png'
   ],
