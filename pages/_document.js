@@ -92,7 +92,7 @@ MyDocument.getInitialProps = async ctx => {
   return {
     ...initialProps,
     emotionStyleTags,
-    namespacesRequired: ['common', 'crypto-landing'],
+    namespacesRequired: ['common'],
   };
 };
 

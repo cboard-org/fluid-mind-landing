@@ -76,6 +76,9 @@ export const useText = makeStyles({ uniqId: 'text' })((theme) => ({
       fontSize: 16,
       lineHeight: '24px',
     },
+    [theme.breakpoints.up('lg')]: {
+      maxWidth: '600px',
+    },
   },
   paragraph: {
     fontWeight: theme.typography.fontWeightRegular,
