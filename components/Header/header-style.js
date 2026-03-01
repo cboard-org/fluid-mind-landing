@@ -170,12 +170,12 @@ const headerStyles = makeStyles({ uniqId: 'header' })((theme, _params, classes) 
     '& img': {
       display: 'block',
       margin: '0 auto',
-      width: 64,
+      width: 'auto',
       height: 64,
       marginBottom: theme.spacing(),
       [theme.breakpoints.down('md')]: {
         height: 48,
-        width: 48,
+        width: 'auto',
       }
     }
   },

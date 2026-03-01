@@ -79,9 +79,9 @@ function MoreFeature() {
             <Grid item md={6} xs={12}>
               <div className={cx(classes.text, isMobile && classes.center)}>
                 <span className="ion-ios-lock-outline" />
-                <Title text={t('crypto-landing.morefeature_title1')} align={isMobile ? 'center' : 'left'} />
+                <Title text={t('morefeature_title1')} align={isMobile ? 'center' : 'left'} />
                 <Typography className={text.subtitle2} display="block" align={isMobile ? 'center' : 'left'}>
-                  {t('crypto-landing.morefeature_subtitle1')}
+                  {t('morefeature_subtitle1')}
                 </Typography>
               </div>
             </Grid>
@@ -122,9 +122,9 @@ function MoreFeature() {
             <Grid item md={6} xs={12}>
               <div className={cx(classes.text, isMobile && classes.center)}>
                 <span className="ion-ios-analytics-outline" />
-                <Title text={t('crypto-landing.morefeature_title2')} align={isMobile ? 'center' : 'left'} />
+                <Title text={t('morefeature_title2')} align={isMobile ? 'center' : 'left'} />
                 <Typography className={text.subtitle2} display="block" align={isMobile ? 'center' : 'left'}>
-                  {t('crypto-landing.morefeature_subtitle2')}
+                  {t('morefeature_subtitle2')}
                 </Typography>
               </div>
             </Grid>
@@ -135,9 +135,9 @@ function MoreFeature() {
             <Grid item sm={12}>
               <div className={cx(classes.text, classes.center)}>
                 <span className="ion-ios-flash-outline" />
-                <Title className={text.subtitle2} text={t('crypto-landing.morefeature_title3')} align="center" />
+                <Title className={text.subtitle2} text={t('morefeature_title3')} align="center" />
                 <Typography display="block" align="center" className={text.subtitle2}>
-                  {t('crypto-landing.morefeature_subtitle3')}
+                  {t('morefeature_subtitle3')}
                 </Typography>
               </div>
               <Container maxWidth="md">

@@ -14,29 +14,6 @@ import Parallax from '../Parallax/Hexagonal';
 import Title from '../Title';
 import useStyles from './faq-style';
 
-const faqData = [
-  {
-    q: 'Pellentesque ac bibendum tortor?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
-  },
-  {
-    q: 'In mi nulla, fringilla vestibulum?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
-  },
-  {
-    q: 'Quisque lacinia purus ut libero?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
-  },
-  {
-    q: 'Quisque ut metus sit amet augue?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
-  },
-  {
-    q: 'Pellentesque ac bibendum tortor?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
-  },
-];
-
 function Faq() {
   const { classes } = useStyles();
   const { classes: text } = useText();
@@ -49,6 +26,30 @@ function Faq() {
   const handleChange = panel => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
   };
+
+const faqData = [
+  {
+    q: t('faq_1.q'),
+    a: t('faq_1.a')
+  },
+  {
+    q: t('faq_2.q'),
+    a: t('faq_2.a')
+  },
+  {
+    q: t('faq_3.q'),
+    a: t('faq_3.a')
+  },
+  {
+    q: t('faq_4.q'),
+    a: t('faq_4.a')
+  },
+  {
+    q: t('faq_5.q'),
+    a: t('faq_5.a')
+  },
+];
+
   return (
     <div className={classes.root}>
       <div className={classes.parallax}>
@@ -57,9 +58,9 @@ function Faq() {
       <Container fixed>
         <Grid container spacing={6}>
           <Grid item md={6}>
-            <Title text={t('crypto-landing.faq_title')} align={isMobile ? 'center' : 'left'} />
+            <Title text={t('faq_title')} align={isMobile ? 'center' : 'left'} />
             <Typography className={text.subtitle2} align={isMobile ? 'center' : 'left'} component="p">
-              {t('crypto-landing.faq_subtitle')}
+              {t('faq_subtitle')}
             </Typography>
             {!isTablet && (
               <div className={classes.illustration}>

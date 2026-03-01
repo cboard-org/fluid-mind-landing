@@ -179,24 +179,24 @@ function Banner() {
             <Grid item xs={12} md={8}>
               <div className={classes.text}>
                 <Typography variant="h4" className={text.title2}>
-                  {t('crypto-landing.banner_title')}
+                  {t('banner_title')}
                 </Typography>
                 <Typography component="p" className={text.subtitle2}>
-                  {t('crypto-landing.banner_subtitle')}
+                  {t('banner_subtitle')}
                 </Typography>
               </div>
               <div className={classes.btnArea}>
                 <Button variant="contained" color="secondary" size="large" fullWidth={isMobile}>
-                  {t('crypto-landing.banner_getstarted')}
+                  {t('banner_getstarted')}
                 </Button>
                 <Button variant="outlined" className={classes.invert} size="large" fullWidth={isMobile}>
-                  {t('crypto-landing.banner_viewmarket')}
+                  {t('banner_viewmarket')}
                 </Button>
               </div>
             </Grid>
             <Grid item xs={12} md={4}>
               <figure className={classes.objectArt}>
-                <img src="/images/crypto/banner-art.png" alt="illustration" />
+                <img src="/images/crypto/banner-art.gif" alt="illustration" />
               </figure>
             </Grid>
           </Grid>

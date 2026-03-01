@@ -10,43 +10,41 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import useStyles from './promotion-style';
 import imgAPI from 'public/images/imgAPI';
 
-const sliderData = [
-  {
-    image: imgAPI.crypto[0],
-    title: 'Sed imperdiet enim ligula',
-    desc: 'Sed imperdiet enim ligula vitae viverra. Vivamus sit amet interdum elit.',
-    date: '12 Jul - 10 Aug'
-  },
-  {
-    image: imgAPI.crypto[1],
-    title: 'Fusce placerat enim et odio',
-    desc: 'Sed imperdiet enim ligula vitae viverra. Vivamus sit amet interdum elit.',
-    date: '12 Jul - 10 Aug'
-  },
-  {
-    image: imgAPI.crypto[2],
-    title: 'Pellentesque ac bibendum tortor',
-    desc: 'Sed imperdiet enim ligula vitae viverra. Vivamus sit amet interdum elit.',
-    date: '12 Jul - 10 Aug'
-  },
-  {
-    image: imgAPI.crypto[3],
-    title: 'Pellentesque ac bibendum tortor',
-    desc: 'Sed imperdiet enim ligula vitae viverra. Vivamus sit amet interdum elit.',
-    date: '12 Jul - 10 Aug'
-  }
-];
 
 function Promotion() {
   const { classes, cx } = useStyles();
   const { t } = useTranslation('common');
   const isTablet = useMediaQuery(theme => theme.breakpoints.down('lg'));
 
+const sliderData = [
+  {
+    image: imgAPI.crypto[0],
+    title: t('promo_1.title'),
+    desc: t('promo_1.desc')
+  },
+  {
+    image: imgAPI.crypto[1],
+    title: t('promo_2.title'),
+    desc: t('promo_2.desc')
+  },
+  {
+    image: imgAPI.crypto[2],
+    title: t('promo_3.title'),
+    desc: t('promo_3.desc')
+  },
+  {
+    image: imgAPI.crypto[3],
+    title: t('promo_4.title'),
+    desc: t('promo_4.desc')
+  }
+];
+
   return (
     <div className={classes.root}>
       <div className={classes.sliderWrap}>
         <Slider
           className="slider-wrapper"
+          autoplay={3500}
           previousButton={(
             <NextIcon />
           )}
@@ -84,13 +82,6 @@ function Promotion() {
                     <Typography component="p">
                       {item.desc}
                     </Typography>
-                    <section className={classes.time}>
-                      <Typography component="h6">
-                        {t('crypto-landing.promo_periode')}
-                        :&nbsp;
-                        {item.date}
-                      </Typography>
-                    </section>
                   </Paper>
                 </Grid>
               </Grid>

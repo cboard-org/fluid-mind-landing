@@ -61,11 +61,11 @@ function Footer(props) {
               </Typography>
             </div>
             <Typography color="textPrimary" className={classes.footerDesc} gutterBottom>
-              {t('crypto-landing.banner_title')}
+              {t('banner_title')}
             </Typography>
             <div className={classes.quickLinks}>
               <Typography variant="h6" className={classes.title} color="textPrimary" gutterBottom>
-                {t('crypto-landing.footer_link')}
+                {t('footer_link')}
               </Typography>
               <ul>
                 {footer.description.map((item, index) => (
@@ -86,7 +86,7 @@ function Footer(props) {
                 </figure>
                 <div className={classes.listText}>
                   <Typography variant="button" className={classes.category}>
-                    {t('crypto-landing.footer_news')}
+                    {t('footer_news')}
                   </Typography>
                   <Typography display="block" component="span">Sed imperdiet enim ligula vitae viverra. </Typography>
                 </div>

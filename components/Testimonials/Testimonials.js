@@ -12,45 +12,6 @@ import Title from '../Title';
 import TestiCard from '../Cards/Testimonial';
 import useStyle from './testi-style';
 
-const testiContent = [
-  {
-    text: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam nec ex aliquet, aliquam neque non.',
-    name: 'John Doe',
-    avatar: imgApi.avatar[6],
-    title: 'Chief Digital Officer',
-  },
-  {
-    text: 'Vestibulum sit amet tortor sit amet libero lobortis semper at et odio. In eu tellus tellus. Pellentesque ullamcorper aliquet ultrices. Aenean facilisis vitae purus facilisis semper. Nam vitae scelerisque lorem, quis tempus libero.',
-    name: 'Jean Doe',
-    avatar: imgApi.avatar[7],
-    title: 'Chief Digital Officer',
-  },
-  {
-    text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-    name: 'Jena Doe',
-    avatar: imgApi.avatar[1],
-    title: 'Graphic Designer',
-  },
-  {
-    text: 'Sed imperdiet enim ligula, vitae viverra justo porta vel.',
-    name: 'Jovelin Doe',
-    avatar: imgApi.avatar[2],
-    title: 'Senior Graphic Designer',
-  },
-  {
-    text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-    name: 'Jihan Doe',
-    avatar: imgApi.avatar[3],
-    title: 'CEO Software House',
-  },
-  {
-    text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-    name: 'John Doe',
-    avatar: imgApi.avatar[9],
-    title: 'Senior Graphic Designer',
-  },
-];
-
 function Testimonials() {
   const slider = useRef(null);
   const { classes, cx } = useStyle();
@@ -60,6 +21,45 @@ function Testimonials() {
   const { t } = useTranslation('common');
   const [active, setActive] = useState(0);
   const [activeTransition, setActiveTransition] = useState(0);
+
+  const testiContent = [
+    {
+      text: t('testimonial_1.text'),
+      name: t('testimonial_1.name'),
+      avatar: imgApi.avatar[6],
+      title: t('testimonial_1.title'),
+    },
+    {
+      text: t('testimonial_2.text'),
+      name: t('testimonial_2.name'),
+      avatar: imgApi.avatar[7],
+      title: t('testimonial_2.title'),
+    },
+    {
+      text: t('testimonial_3.text'),
+      name: t('testimonial_3.name'),
+      avatar: imgApi.avatar[1],
+      title: t('testimonial_3.title'),
+    },
+    {
+      text: t('testimonial_4.text'),
+      name: t('testimonial_4.name'),
+      avatar: imgApi.avatar[2],
+      title: t('testimonial_4.title'),
+    },
+    {
+      text: t('testimonial_5.text'),
+      name: t('testimonial_5.name'),
+      avatar: imgApi.avatar[3],
+      title: t('testimonial_5.title'),
+    },
+    {
+      text: t('testimonial_6.text'),
+      name: t('testimonial_6.name'),
+      avatar: imgApi.avatar[9],
+      title: t('testimonial_6.title'),
+    },
+  ];
 
   const settings = {
     dots: false,
@@ -72,7 +72,7 @@ function Testimonials() {
     beforeChange: (current, next) => setActiveTransition(next),
   };
 
-  const slideState = index => {
+  const slideState = (index) => {
     if (index === activeTransition - 1 || index === active - 1) {
       return classes.past;
     }
@@ -88,9 +88,9 @@ function Testimonials() {
   return (
     <div className={classes.root}>
       <Container fixed={isDesktop}>
-        <Title text={t('crypto-landing.testi_title')} align="center" />
+        <Title text={t('testi_title')} align="center" />
         <Typography className={text.subtitle2} align="center">
-          {t('crypto-landing.testi_subtitle')}
+          {t('testi_subtitle')}
         </Typography>
         <Grid container spacing={6}>
           <Grid item md={1} xs={12} />
@@ -106,7 +106,10 @@ function Testimonials() {
                 </button>
                 <Carousel ref={slider} {...settings}>
                   {testiContent.map((item, index) => (
-                    <div key={index.toString()} className={cx(classes.item, slideState(index))}>
+                    <div
+                      key={index.toString()}
+                      className={cx(classes.item, slideState(index))}
+                    >
                       <div className={classes.slideContent}>
                         <TestiCard
                           text={item.text}
@@ -134,7 +137,12 @@ function Testimonials() {
                       key={index.toString()}
                       className={index === active ? classes.active : ''}
                     >
-                      <button type="button" onClick={() => slider.current.slickGoTo(index)}>&nbsp;</button>
+                      <button
+                        type="button"
+                        onClick={() => slider.current.slickGoTo(index)}
+                      >
+                        &nbsp;
+                      </button>
                     </li>
                   ))}
                 </ul>

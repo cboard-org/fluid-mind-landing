@@ -74,7 +74,7 @@ function MainFeature() {
         aria-describedby="alert-dialog-slide-description"
       >
         <DialogTitle id="alert-dialog-slide-title">
-          {t('crypto-landing.mainfeature_title')}
+          {t('mainfeature_title')}
           <IconButton onClick={handleClose} className={classes.closeBtn} size="large">
             <CloseIcon className={classes.icon} />
           </IconButton>
@@ -82,7 +82,7 @@ function MainFeature() {
         <DialogContent>
           {yt.use && (
             <YouTube
-              videoId="QPMkYyM2Gzg"
+              videoId="tJ5BgkeVWRk"
               onReady={_onReady}
               opts={opts}
             />
@@ -92,9 +92,9 @@ function MainFeature() {
       <Container fixed>
         <Grid container spacing={6}>
           <Grid item md={6} xs={12}>
-            <Title text={t('crypto-landing.mainfeature_title')} align={isMobile ? 'center' : 'left'} />
+            <Title text={t('mainfeature_title')} align={isMobile ? 'center' : 'left'} />
             <Typography display="block" gutterBottom align={isMobile ? 'center' : 'left'} className={text.subtitle2}>
-              {t('crypto-landing.mainfeature_subtitle')}
+              {t('mainfeature_subtitle')}
             </Typography>
             <Paper className={classes.video}>
               <figure>
@@ -123,41 +123,49 @@ function MainFeature() {
               <div className={classes.lower}>
                 <Paper className={classes.paper}>
                   <span className="ion-ios-ionic-outline" />
-                  <Typography variant="h6">
-                    +600
-                  </Typography>
-                  <Typography display="block">
-                    {t('crypto-landing.mainfeature_supported')}
-                  </Typography>
+                  <div className={classes.textCounter}>
+                    <Typography variant="h6">
+                      +5
+                    </Typography>
+                    <Typography display="block">
+                      {t('mainfeature_supported')}
+                    </Typography>
+                  </div>
                 </Paper>
                 <Paper className={classes.paper}>
                   <span className="ion-ios-people-outline" />
-                  <Typography variant="h6">
-                    +200K
-                  </Typography>
-                  <Typography display="block">
-                    {t('crypto-landing.mainfeature_registered')}
-                  </Typography>
+                  <div className={classes.textCounter}>
+                    <Typography variant="h6">
+                      +100K
+                    </Typography>
+                    <Typography display="block">
+                      {t('mainfeature_registered')}
+                    </Typography>
+                  </div>
                 </Paper>
               </div>
               <div className={classes.higher}>
                 <Paper className={classes.paper}>
                   <span className="ion-ios-archive-outline" />
-                  <Typography variant="h6">
-                    +20M
-                  </Typography>
-                  <Typography display="block">
-                    {t('crypto-landing.mainfeature_open')}
-                  </Typography>
+                  <div className={classes.textCounter}>
+                    <Typography variant="h6">
+                      +20M
+                    </Typography>
+                    <Typography display="block">
+                      {t('mainfeature_open')}
+                    </Typography>
+                  </div>
                 </Paper>
                 <Paper className={classes.paper}>
                   <span className="ion-ios-heart-outline" />
-                  <Typography variant="h6">
-                    +50M
-                  </Typography>
-                  <Typography display="block">
-                    {t('crypto-landing.mainfeature_invested')}
-                  </Typography>
+                  <div className={classes.textCounter}>
+                    <Typography variant="h6">
+                      +75
+                    </Typography>
+                    <Typography display="block">
+                      {t('mainfeature_invested')}
+                    </Typography>
+                  </div>
                 </Paper>
               </div>
             </div>

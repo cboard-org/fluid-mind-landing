@@ -164,8 +164,9 @@ const promotionStyles = makeStyles({ uniqId: 'promotion' })((theme, _params, cla
       marginBottom: theme.spacing(3),
       lineHeight: '42px',
       '& button': {
+        color: theme.palette.text.primary,
         textAlign: 'left',
-        fontSize: 36,
+        fontSize: 30,
         display: 'block',
         maxWidth: 500,
         overflow: 'hidden',
@@ -214,7 +215,7 @@ const promotionStyles = makeStyles({ uniqId: 'promotion' })((theme, _params, cla
     top: 0,
     left: 0,
     zIndex: 2,
-    opacity: 0.5
+    opacity: 0.1
   },
   imgWrap: {
     position: 'relative',

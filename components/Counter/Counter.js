@@ -46,15 +46,15 @@ function Counter() {
             {countup(567, play)}
           </Typography>
           <Typography component="p" className={text.subtitle}>
-            {t('crypto-landing.footer_counter')}
+            {t('footer_counter')}
           </Typography>
         </ScrollAnimation>
         <div className={classes.callAction}>
           <Typography variant="h4" gutterBottom className={text.subtitle}>
-            {t('crypto-landing.footer_waiting')}
+            {t('footer_waiting')}
           </Typography>
           <Button component={Link} variant="contained" href={routeLink.crypto.register} color="secondary" size="large" className={classes.button}>
-            {t('crypto-landing.getstarted')}
+            {t('getstarted')}
           </Button>
         </div>
       </Container>

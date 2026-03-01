@@ -94,7 +94,7 @@ const featureStyles = makeStyles({ uniqId: 'feature' })((theme, _params, classes
       width: 174,
     },
     '& span': {
-      color: theme.palette.primary.main,
+      color: '#2196F3',
       fontSize: 48
     },
     '& h6': {
@@ -105,6 +105,15 @@ const featureStyles = makeStyles({ uniqId: 'feature' })((theme, _params, classes
       [theme.breakpoints.down('sm')]: {
         fontSize: 16
       }
+    }
+  },
+  textCounter: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 0,
+    alignItems: 'flex-start',
+    '& p': {
+      flexShrink: 3
     }
   },
   moreFeature: {

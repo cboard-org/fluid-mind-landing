@@ -37,11 +37,6 @@ const bannerStyles = makeStyles({ uniqId: 'banner' })(theme => ({
     position: 'absolute',
     width: '100%',
     height: 600,
-    '& canvas': {
-      [theme.breakpoints.down('lg')]: {
-        display: 'none'
-      }
-    }
   },
   bannerWrap: {
     position: 'relative',
@@ -51,11 +46,13 @@ const bannerStyles = makeStyles({ uniqId: 'banner' })(theme => ({
     '& img': {
       position: 'relative',
       zIndex: 1,
-      left: -130,
-      top: 240,
-      maxWidth: 560,
+      left: -100,
+      top: 180,
+      maxWidth: 580,
       [theme.breakpoints.down('lg')]: {
-        top: 120
+        top: 100,
+        maxWidth: 400,
+        left: -80,
       }
     },
     [theme.breakpoints.down('md')]: {
@@ -76,21 +73,31 @@ const bannerStyles = makeStyles({ uniqId: 'banner' })(theme => ({
     },
     '& h4': {
       marginBottom: theme.spacing(2),
-    }
+    },
   },
   btnArea: {
+    display: 'flex',
     marginTop: theme.spacing(5),
     position: 'relative',
     zIndex: 2,
     [theme.breakpoints.down('md')]: {
-      textAlign: 'center'
+      textAlign: 'center',
+      maxHeight: 50,
+    },
+    [theme.breakpoints.down('sm')]: {
+      textAlign: 'center',
+      minHeight: 50,
     },
     '& button': {
+      [theme.breakpoints.up('md')]: {
+        maxWidth: 340,
+        maxHeight: 60,
+      },
       marginRight: theme.spacing(3),
       [theme.breakpoints.down('sm')]: {
         marginBottom: theme.spacing(3),
-        height: 50
-      }
+        minHeight: 50
+      },
     }
   },
   invert: {
