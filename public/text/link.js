@@ -1,5 +1,5 @@
 const link = {
-  crypto: {
+  cfluent: {
     home: '/',
     contact: '/contact',
     login: '/login',

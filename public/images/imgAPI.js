@@ -28,14 +28,14 @@ const imgAPI = {
     'https://via.placeholder.com/1280x851/c4ffd7/757575',
     'https://via.placeholder.com/640x425/c4cdff/757575',
   ],
-  crypto: [
-    '/images/crypto/promo-1.png',
-    '/images/crypto/promo-2.png',
-    '/images/crypto/promo-3.png',
-    '/images/crypto/promo-4.png',
-    '/images/app/full_options.png',
+  cfluent: [
+    '/images/cfluent/promo-1.png',
+    '/images/cfluent/promo-2.png',
+    '/images/cfluent/promo-3.png',
+    '/images/cfluent/promo-4.png',
+    '/images/cfluent/video-thumbnail.png',
     'https://via.placeholder.com/1280x677/204473/FFFFFF',
-    '/images/crypto/crypto_laptop.png'
+    '/images/cfluent/cfluent_laptop.png'
   ],
 };
 

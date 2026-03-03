@@ -1,14 +1,14 @@
 {
-  "title": "FluidMind | Real-time AI for AAC communication",
+  "title": "Cfluent | Real-time AI for AAC communication",
   "subtitle": "Context-aware phrase suggestions that help AAC users respond faster and keep conversations flowing.",
   "error_with_status": "Something went wrong on our side.",
   "404": "We couldn’t find that page.",
-  "404_subtitle": "Try going back to the homepage to learn about FluidMind.",
+  "404_subtitle": "Try going back to the homepage to learn about Cfluent.",
   "back": "Back to home",
   "error_without_status": "Something went wrong. Please try again.",
   "contact_title": "Request a Demo",
   "contact_title2": "Get in Touch",
-  "contact_subtitle": "Want to pilot FluidMind with your clinic, school, or AAC program? Or just have questions about accessibility, privacy, or integration with Cboard? Send us a message.",
+  "contact_subtitle": "Want to pilot Cfluent with your clinic, school, or AAC program? Or just have questions about accessibility, privacy, or integration with Cboard? Send us a message.",
   "form_name": "Your name *",
   "form_email": "Your email *",
   "form_phone": "Phone (optional)",
@@ -35,7 +35,7 @@
   "register_password": "Password",
   "register_confirm": "Confirm password",
   "register_title": "Let’s get started",
-  "register_subtitle": "Create your account to join the FluidMind pilot",
+  "register_subtitle": "Create your account to join the Cfluent pilot",
   "accept": "Accept",
   "en": "English",
   "de": "Deutsch",
@@ -43,8 +43,8 @@
   "pt": "󠁥󠁮󠁧󠁿Português",
   "id": "󠁥󠁮󠁧󠁿Bahasa Indonesia",
   "ar": "󠁥󠁮󠁧󠁿العربيّة",
-  "notif_msg": "FluidMind is currently in early access/pilot. Join the waitlist to get updates, pilot opportunities, and launch news.",
-  "header_cta": "Open FluidMind",
+  "notif_msg": "Cfluent is currently in early access/pilot. Join the waitlist to get updates, pilot opportunities, and launch news.",
+  "header_cta": "Open Cfluent",
   "header_register": "Join",
   "header_language": "Language",
   "header_theme": "Theme",
@@ -54,68 +54,68 @@
   "header_feature": "Features",
   "header_benefit": "Impact",
   "benefit_1": "AAC users often experience communication lag, which can lead to social isolation and missed opportunities for connection.",
-  "benefit_2": "FluidMind reduces this lag by providing real-time, context-aware phrase suggestions, enabling AAC users to respond more quickly and naturally in conversations.", 
-  "benefit_3": "By facilitating faster communication, FluidMind helps AAC users stay engaged and connected with their social circles, improving their overall quality of life.",
-  "benefit_4": "FluidMind's AI-driven suggestions are designed to be intuitive and contextually relevant, ensuring that AAC users can communicate effectively in a variety of social and professional settings.",
-  "benefit_5": "FluidMind supports diverse communication needs, making it easier for AAC users to participate in conversations and express themselves confidently.",
-  "benefit_6": "By reducing communication barriers, FluidMind empowers AAC users to build stronger relationships and access more opportunities for social interaction and personal growth.",
-  "benefit_7": "FluidMind's real-time support can help AAC users navigate complex social situations, providing them with the tools they need to communicate effectively and authentically.",
+  "benefit_2": "Cfluent reduces this lag by providing real-time, context-aware phrase suggestions, enabling AAC users to respond more quickly and naturally in conversations.", 
+  "benefit_3": "By facilitating faster communication, Cfluent helps AAC users stay engaged and connected with their social circles, improving their overall quality of life.",
+  "benefit_4": "Cfluent's AI-driven suggestions are designed to be intuitive and contextually relevant, ensuring that AAC users can communicate effectively in a variety of social and professional settings.",
+  "benefit_5": "Cfluent supports diverse communication needs, making it easier for AAC users to participate in conversations and express themselves confidently.",
+  "benefit_6": "By reducing communication barriers, Cfluent empowers AAC users to build stronger relationships and access more opportunities for social interaction and personal growth.",
+  "benefit_7": "Cfluent's real-time support can help AAC users navigate complex social situations, providing them with the tools they need to communicate effectively and authentically.",
   "benefit_8": "And more…",
   "header_testimonials": "Stories",
   "testimonial_1": {
     "name": "Dr. Emily Chen",
     "title": "Speech-Language Pathologist",
-    "text": "“FluidMind has been a game-changer for my AAC clients. The real-time suggestions have significantly reduced communication lag, allowing them to engage more naturally in conversations.”"
+    "text": "“Cfluent has been a game-changer for my AAC clients. The real-time suggestions have significantly reduced communication lag, allowing them to engage more naturally in conversations.”"
   },
   "testimonial_2": {
     "name": "Alex Johnson",
     "title": "AAC User",
-    "text": "“Using FluidMind has made it so much easier for me to keep up with conversations. I feel more connected to my friends and family, and I can express myself more quickly.”"
+    "text": "“Using Cfluent has made it so much easier for me to keep up with conversations. I feel more connected to my friends and family, and I can express myself more quickly.”"
   },
   "testimonial_3": {
     "name": "Sarah Lee",
     "title": "Special Education Teacher",
-    "text": "“FluidMind has provided my students with a powerful tool to enhance their communication. The context-aware suggestions have helped them participate more actively in class discussions and social interactions.”"
+    "text": "“Cfluent has provided my students with a powerful tool to enhance their communication. The context-aware suggestions have helped them participate more actively in class discussions and social interactions.”"
   },
   "testimonial_4": {
     "name": "Michael Davis",
     "title": "Parent of AAC User",
-    "text": "“Since my child started using FluidMind, we've seen a noticeable improvement in their communication skills. They are more confident and engaged in conversations, which has been wonderful to witness.”"
+    "text": "“Since my child started using Cfluent, we've seen a noticeable improvement in their communication skills. They are more confident and engaged in conversations, which has been wonderful to witness.”"
   },
   "testimonial_5": {
     "name": "Dr. Lisa Martinez",
     "title": "AAC Researcher",
-    "text": "“FluidMind's innovative approach to real-time, context-aware suggestions has the potential to revolutionize AAC communication. It's exciting to see how this technology can enhance the lives of AAC users.”"
+    "text": "“Cfluent's innovative approach to real-time, context-aware suggestions has the potential to revolutionize AAC communication. It's exciting to see how this technology can enhance the lives of AAC users.”"
   },
   "testimonial_6": {
     "name": "Jessica Brown",
     "title": "AAC User",
-    "text": "“I love how FluidMind helps me find the right words quickly. It makes conversations flow better, and I feel more confident expressing myself.”"
+    "text": "“I love how Cfluent helps me find the right words quickly. It makes conversations flow better, and I feel more confident expressing myself.”"
   },
   "header_contact": "Contact",
   "banner_title": "Speak faster. Stay present.",
-  "banner_subtitle": "FluidMind listens to the surrounding conversation (with consent) and suggests what you might want to say next—so AAC users can respond in real time without typing every word.",
-  "banner_getstarted": "Open FluidMind",
+  "banner_subtitle": "Cfluent listens to the surrounding conversation (with consent) and suggests what you might want to say next—so AAC users can respond in real time without typing every word.",
+  "banner_getstarted": "Open Cfluent",
   "banner_viewmarket": "How it works",
   "promo_periode": "Timeline",
   "promo_1": {
     "title": "Independence, amplified",
-    "desc": "FluidMind enhances natural communication with intelligent, context-aware suggestions."
+    "desc": "Cfluent enhances natural communication with intelligent, context-aware suggestions."
   },
   "promo_2": {
     "title": "Confidence in every answer",
-    "desc": "FluidMind helps students communicate clearly and quickly — in class, discussions, and beyond."
+    "desc": "Cfluent helps students communicate clearly and quickly — in class, discussions, and beyond."
   },
   "promo_3": {
     "title": "Every word matters at home",
-    "desc": "FluidMind supports meaningful, natural conversations — so connection comes first, not the device."
+    "desc": "Cfluent supports meaningful, natural conversations — so connection comes first, not the device."
   },
   "promo_4": {
     "title": "Stay in the moment",
-    "desc": "FluidMind helps you respond faster and naturally, so conversations flow — with friends, in real life."
+    "desc": "Cfluent helps you respond faster and naturally, so conversations flow — with friends, in real life."
   },
   "mainfeature_title": "Real-time support for real conversations",
-  "mainfeature_subtitle": "FluidMind is an AI communication companion designed for AAC. It generates editable suggestions from live context and works alongside Cboard.",
+  "mainfeature_subtitle": "Cfluent is an AI communication companion designed for AAC. It generates editable suggestions from live context and works alongside Cboard.",
   "mainfeature_supported": "Supported languages",
   "mainfeature_open": "Words suggested",
   "mainfeature_registered": "Ecosystem users",
@@ -126,33 +126,33 @@
   "morefeature_subtitle2": "Designed to reduce effort: fewer taps, faster replies, and suggestions that match your voice and vocabulary. Compatible with access methods like touch, switch, and eye tracking (where supported by your AAC setup).",
   "morefeature_title3": "Privacy by design",
   "morefeature_subtitle3": "We minimize data collection and prioritize secure processing. Pilot deployments can be configured for strict privacy needs (e.g., clinical or school settings).",
-  "benefit_title": "Reduce communication lag—and the social cost that comes with it",
+  "benefit_title": "Reduce communication lag and socialize more and better",
   "testi_title": "What early partners are exploring",
-  "testi_subtitle": "Clinicians, educators, and AAC users testing faster conversations with FluidMind.",
+  "testi_subtitle": "Clinicians, educators, and AAC users testing faster conversations with Cfluent.",
   "faq_title": "FAQ",
   "faq_subtitle": "Questions about privacy, pilots, accessibility, or integrations? You’ll find answers here.",
   "faq_1": {
-    "q": "How does FluidMind work?",
-    "a": "FluidMind uses AI to listen to the conversation around you (with consent) and generates real-time phrase suggestions based on the context. It integrates with Cboard, allowing AAC users to quickly select, edit, or ignore suggestions to keep conversations flowing naturally."
+    "q": "How does Cfluent work?",
+    "a": "Cfluent uses AI to listen to the conversation around you (with consent) and generates real-time phrase suggestions based on the context. It integrates with Cboard, allowing AAC users to quickly select, edit, or ignore suggestions to keep conversations flowing naturally."
   },
   "faq_2": {
-    "q": "Is FluidMind compatible with all AAC devices?",
-    "a": "FluidMind is designed to work with a wide range of AAC devices, but compatibility may vary depending on the specific device and setup. It integrates seamlessly with Cboard, and we are continuously working to expand support for additional AAC tools and platforms."
+    "q": "Is Cfluent compatible with all AAC devices?",
+    "a": "Cfluent is designed to work with a wide range of AAC devices, but compatibility may vary depending on the specific device and setup. It integrates seamlessly with Cboard, and we are continuously working to expand support for additional AAC tools and platforms."
   },
   "faq_3": {
-    "q": "What languages does FluidMind support?",
-    "a": "In the pilot phase, FluidMind supports English, Spanish, and Mandarin. We plan to expand language support based on user feedback and demand."
+    "q": "What languages does Cfluent support?",
+    "a": "In the pilot phase, Cfluent supports English, Spanish, and Mandarin. We plan to expand language support based on user feedback and demand."
   },
   "faq_4": {
-    "q": "How does FluidMind ensure user privacy?",
-    "a": "User privacy is our top priority. FluidMind minimizes data collection and processes all data securely. Users have full control over their data, and pilot deployments can be configured to meet strict privacy requirements, such as those in clinical or educational settings."
+    "q": "How does Cfluent ensure user privacy?",
+    "a": "User privacy is our top priority. Cfluent minimizes data collection and processes all data securely. Users have full control over their data, and pilot deployments can be configured to meet strict privacy requirements, such as those in clinical or educational settings."
   },
   "faq_5": {
-    "q": "How can I join the FluidMind pilot?",
-    "a": "You can join the FluidMind pilot by signing up for our waitlist. We are currently accepting applications from AAC users, clinicians, educators, and organizations interested in testing FluidMind. Join the waitlist to receive updates and be among the first to experience our real-time AI communication companion."
+    "q": "How can I join the Cfluent pilot?",
+    "a": "You can join the Cfluent pilot by signing up for our waitlist. We are currently accepting applications from AAC users, clinicians, educators, and organizations interested in testing Cfluent. Join the waitlist to receive updates and be among the first to experience our real-time AI communication companion."
   },
   "footer_counter": "Waitlist",
-  "footer_waiting": "Ready to explore FluidMind?",
+  "footer_waiting": "Ready to explore Cfluent?",
   "getstarted": "Join waitlist",
   "footer_news": "Updates",
   "footer_link": "Links"

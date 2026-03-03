@@ -1,13 +1,13 @@
 module.exports = {
-  crypto: {
-    name: 'Coinz',
-    desc: 'Luxiren Cryptocurrency - React Single Landing Page Template',
-    prefix: 'luxiren',
-    footerText: 'Luxiren Theme 2021',
-    logoText: 'Luxiren Coinz',
-    projectName: 'Coinz',
-    url: 'luxireact.ux-maestro.com/coinz',
-    img: '/static/images/crypto-logo.png',
+  cfluent: {
+    name: 'Cfluent',
+    desc: 'AI powered AAC platform',
+    prefix: 'cfluent',
+    footerText: 'Cfluent Theme 2021',
+    logoText: 'Cfluent Logo',
+    projectName: 'Cfluent',
+    url: 'cfluent.ux-maestro.com',
+    img: '/static/images/Cfluent-logo.gif',
     notifMsg: 'Donec sit amet nulla sed arcu pulvinar ultricies commodo id ligula.'
   }
 };
