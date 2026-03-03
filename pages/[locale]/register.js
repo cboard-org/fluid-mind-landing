@@ -12,7 +12,7 @@ function Register() {
     <Fragment>
       <Head>
         <title>
-          { brand.crypto.name + ' - Register' }
+          { brand.cfluent.name + ' - Register' }
         </title>
       </Head>
       <div>

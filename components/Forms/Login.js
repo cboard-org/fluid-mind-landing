@@ -55,7 +55,7 @@ function Login() {
           <Title align="left">
             {t('login')}
           </Title>
-          <Button component={Link} size="small" className={classes.buttonLink} href={routeLink.crypto.register}>
+          <Button component={Link} size="small" className={classes.buttonLink} href={routeLink.cfluent.register}>
             <Icon className={cx(classes.icon, classes.signArrow)}>arrow_forward</Icon>
             {t('login_create')}
           </Button>

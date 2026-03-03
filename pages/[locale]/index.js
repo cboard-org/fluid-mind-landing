@@ -67,7 +67,7 @@ function Landing(props) {
     <Fragment>
       <Head>
         <title>
-          { brand.crypto.name + ' - Home Page' }
+          { brand.cfluent.name + ' - Home Page' }
         </title>
       </Head>
       <CssBaseline />

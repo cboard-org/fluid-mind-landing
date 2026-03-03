@@ -1,7 +1,7 @@
 import { makeStyles } from 'tss-react/mui';
 import { lighten, darken } from '@mui/material/styles';
-import decoBottomLight from 'public/images/crypto/deco-bottom-light.svg';
-import decoBottomDark from 'public/images/crypto/deco-bottom-dark.svg';
+import decoBottomLight from 'public/images/cfluent/deco-bottom-light.svg';
+import decoBottomDark from 'public/images/cfluent/deco-bottom-dark.svg';
 
 const promotionStyles = makeStyles({ uniqId: 'promotion' })((theme, _params, classes) => ({
   root: {

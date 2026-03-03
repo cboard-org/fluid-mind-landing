@@ -55,7 +55,7 @@ function Register() {
       <div>
         <div className={classes.head}>
           <Title align="left">{t('register')}</Title>
-          <Button component={Link} size="small" className={classes.buttonLink} href={routeLink.crypto.login}>
+          <Button component={Link} size="small" className={classes.buttonLink} href={routeLink.cfluent.login}>
             <Icon className={cx(classes.icon, classes.signArrow)}>arrow_forward</Icon>
             {t('register_already')}
           </Button>

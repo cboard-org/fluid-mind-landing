@@ -12,7 +12,7 @@ function Contact() {
     <Fragment>
       <Head>
         <title>
-          { brand.crypto.name + ' - Contact' }
+          { brand.cfluent.name + ' - Contact' }
         </title>
       </Head>
       <div>

@@ -28,7 +28,7 @@ function ErrorPage(props) {
       <Fragment>
         <Head>
           <title>
-            { brand.crypto.name + ' - ' + errorCode }
+            { brand.cfluent.name + ' - ' + errorCode }
           </title>
         </Head>
         <div className={classes.dedicatedPage}>

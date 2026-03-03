@@ -12,7 +12,7 @@ function Login() {
     <Fragment>
       <Head>
         <title>
-          { brand.crypto.name + ' - Login' }
+          { brand.cfluent.name + ' - Login' }
         </title>
       </Head>
       <div>

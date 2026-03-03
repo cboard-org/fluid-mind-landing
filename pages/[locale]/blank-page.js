@@ -43,7 +43,7 @@ function BlankPage(props) {
     <Fragment>
       <Head>
         <title>
-          { brand.crypto.name + ' - Blank page' }
+          { brand.cfluent.name + ' - Blank page' }
         </title>
       </Head>
       <CssBaseline />

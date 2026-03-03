@@ -13,7 +13,7 @@ import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
 import { useTranslation } from 'next-i18next';
 import brand from 'public/text/brand';
 import routeLink from 'public/text/link';
-import logo from 'public/images/crypto-logo.svg';
+import logo from 'public/images/cfluent-logo.svg';
 import { useText } from 'theme/common';
 import Link from '../Link';
 import Parallax from '../Parallax/Hexagonal';
@@ -84,10 +84,10 @@ function Contact() {
       />
       {!isDesktop && (
         <div className={cx(classes.logo, classes.logoHeader)}>
-          <Link href={routeLink.crypto.home}>
+          <Link href={routeLink.cfluent.home}>
             <img src={logo} alt="logo" />
             <Typography component="span" className={text.title}>
-              {brand.crypto.projectName}
+              {brand.cfluent.projectName}
             </Typography>
           </Link>
         </div>
@@ -95,7 +95,7 @@ function Contact() {
       <Container maxWidth="md" className={classes.innerWrap}>
         <IconButton
           component={Link}
-          href={routeLink.crypto.home}
+          href={routeLink.cfluent.home}
           className={cx(classes.backtohome, classes.invert)}
           size="large"
         >

@@ -18,22 +18,22 @@ function Promotion() {
 
 const sliderData = [
   {
-    image: imgAPI.crypto[0],
+    image: imgAPI.cfluent[0],
     title: t('promo_1.title'),
     desc: t('promo_1.desc')
   },
   {
-    image: imgAPI.crypto[1],
+    image: imgAPI.cfluent[1],
     title: t('promo_2.title'),
     desc: t('promo_2.desc')
   },
   {
-    image: imgAPI.crypto[2],
+    image: imgAPI.cfluent[2],
     title: t('promo_3.title'),
     desc: t('promo_3.desc')
   },
   {
-    image: imgAPI.crypto[3],
+    image: imgAPI.cfluent[3],
     title: t('promo_4.title'),
     desc: t('promo_4.desc')
   }
@@ -64,7 +64,7 @@ const sliderData = [
                       <div className={classes.imgWrap}>
                         <div className={classes.decoration}>
                           <svg>
-                            <use xlinkHref="/images/crypto/deco-promo.svg#main" />
+                            <use xlinkHref="/images/cfluent/deco-promo.svg#main" />
                           </svg>
                         </div>
                         <figure className={classes.image}>

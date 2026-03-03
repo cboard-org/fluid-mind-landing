@@ -9,7 +9,7 @@ const HeadComponent = () => (
     {/* Use minimum-scale=1 to enable GPU rasterization */}
     <meta
       name="description"
-      content={brand.crypto.desc}
+      content={brand.cfluent.desc}
     />
     {/* Favicon */}
     <link rel="icon" href="/favicons/favicon.ico" />
@@ -44,17 +44,17 @@ const HeadComponent = () => (
     <meta property="twitter:domain" content="luxi.ux-maestro.com" />
     <meta property="twitter:creator" content="luxi" />
     <meta property="twitter:card" content="summary" />
-    <meta property="twitter:image:src" content="/images/crypto-logo.png" />
-    <meta property="og:url" content={brand.crypto.url} />
-    <meta property="og:title" content={brand.crypto.desc} />
+    <meta property="twitter:image:src" content="/images/Cfluent-logo.gif" />
+    <meta property="og:url" content={brand.cfluent.url} />
+    <meta property="og:title" content={brand.cfluent.desc} />
     <meta
       property="og:description"
-      content={brand.crypto.desc}
+      content={brand.cfluent.desc}
     />
-    <meta name="twitter:site" content={brand.crypto.url} />
+    <meta name="twitter:site" content={brand.cfluent.url} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content={brand.crypto.img} />
-    <meta property="og:image" content={brand.crypto.img} />
+    <meta name="twitter:image" content={brand.cfluent.img} />
+    <meta property="og:image" content={brand.cfluent.img} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
   </Head>

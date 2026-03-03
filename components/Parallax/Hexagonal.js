@@ -14,7 +14,7 @@ export default function ParallaxCloud() {
               className={cx(classes.rightTopBack, classes.big, 'figure')}
             >
               <svg className={classes.hexaBack}>
-                <use xlinkHref="/images/crypto/parallax-back2.svg#main" />
+                <use xlinkHref="/images/cfluent/parallax-back2.svg#main" />
               </svg>
             </Parallax>
             <Parallax
@@ -38,7 +38,7 @@ export default function ParallaxCloud() {
               className={cx(classes.leftBottomBack, classes.big, 'figure')}
             >
               <svg className={classes.hexaBack}>
-                <use xlinkHref="/images/crypto/parallax-back3.svg#main" />
+                <use xlinkHref="/images/cfluent/parallax-back3.svg#main" />
               </svg>
             </Parallax>
             <Parallax

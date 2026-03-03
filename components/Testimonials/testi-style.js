@@ -1,6 +1,6 @@
 import { makeStyles } from 'tss-react/mui';
 import { alpha } from '@mui/material/styles';
-import hexaBg from 'public/images/crypto/hexa-nav.png';
+import hexaBg from 'public/images/cfluent/hexa-nav.png';
 
 const testiStyles = makeStyles({ uniqId: 'testi' })((theme, _params, classes) => ({
   root: {

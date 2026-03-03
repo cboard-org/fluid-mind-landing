@@ -10,7 +10,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Scrollspy from 'react-scrollspy';
 import { useTranslation } from 'next-i18next';
 import routeLink from 'public/text/link';
-import logo from 'public/images/crypto-logo.gif';
+import logo from 'public/images/Cfluent-logo.gif';
 import Settings from './Settings';
 import Link from '../Link';
 import useStyles from './header-style';
@@ -97,7 +97,7 @@ function Header(props) {
             )}
             <div className={classes.logo}>
               {invert ? (
-                <Link href={routeLink.crypto.home}>
+                <Link href={routeLink.cfluent.home}>
                   <img src={logo} alt="logo" />
                 </Link>
               ) : (
@@ -128,7 +128,7 @@ function Header(props) {
                   </li>
                 ))}
                 <li>
-                  <Button component={Link} href={routeLink.crypto.contact}>
+                  <Button component={Link} href={routeLink.cfluent.contact}>
                     {t('header_contact')}
                   </Button>
                 </li>

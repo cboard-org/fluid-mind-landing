@@ -39,7 +39,7 @@ function MobileMenu(props) {
           <ListItem
             button
             component="a"
-            href={curLang + routeLink.crypto.contact}
+            href={curLang + routeLink.cfluent.contact}
             style={{ animationDuration: navMenu.length * 0.15 + 's' }}
           >
             <ListItemText primary={t('header_contact')} className={classes.menuList} />
@@ -49,7 +49,7 @@ function MobileMenu(props) {
             <ListItem
               button
               component="a"
-              href={curLang + routeLink.crypto[item]}
+              href={curLang + routeLink.cfluent[item]}
               key={index.toString()}
               style={{ animationDuration: navMenu.length * 0.15 + 's' }}
             >
