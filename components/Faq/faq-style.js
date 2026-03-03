@@ -1,7 +1,7 @@
 import { makeStyles } from 'tss-react/mui';
 import { lighten, darken } from '@mui/material/styles';
-import decoFaqLight from 'public/images/crypto/deco-faq-top-light.svg';
-import decoFaqDark from 'public/images/crypto/deco-faq-top-dark.svg';
+import decoFaqLight from 'public/images/cfluent/deco-faq-top-light.svg';
+import decoFaqDark from 'public/images/cfluent/deco-faq-top-dark.svg';
 
 const faqStyles = makeStyles({ uniqId: 'faq' })((theme, _params, classes) => ({
   root: {

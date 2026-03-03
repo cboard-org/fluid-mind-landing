@@ -53,7 +53,7 @@ function Counter() {
           <Typography variant="h4" gutterBottom className={text.subtitle}>
             {t('footer_waiting')}
           </Typography>
-          <Button component={Link} variant="contained" href={routeLink.crypto.register} color="secondary" size="large" className={classes.button}>
+          <Button component={Link} variant="contained" href={routeLink.cfluent.register} color="secondary" size="large" className={classes.button}>
             {t('getstarted')}
           </Button>
         </div>

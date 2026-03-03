@@ -64,7 +64,7 @@ const faqData = [
             </Typography>
             {!isTablet && (
               <div className={classes.illustration}>
-                <img src="/images/crypto/faq.png" alt="illustration" />
+                <img src="/images/cfluent/faq.png" alt="illustration" />
               </div>
             )}
           </Grid>

@@ -19,7 +19,7 @@ function Error(props) {
             <div className={classes.flex}>
               <div className={classes.deco}>
                 <svg>
-                  <use xlinkHref="/images/crypto/deco-hexa.svg#main" />
+                  <use xlinkHref="/images/cfluent/deco-hexa.svg#main" />
                 </svg>
                 <Typography variant="h3">
                   {errCode}

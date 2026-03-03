@@ -9,7 +9,7 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import brand from 'public/text/brand';
 import routerLink from 'public/text/link';
-import logo from 'public/images/crypto-logo.svg';
+import logo from 'public/images/cfluent-logo.svg';
 import { useText } from 'theme/common';
 import Link from '../Link';
 import Parallax from '../Parallax/Hexagonal';
@@ -39,17 +39,17 @@ function AuthFrame(props) {
       </div>
       {!isDesktop && (
         <div className={cx(classes.logo, classes.logoHeader)}>
-          <Link href={routerLink.crypto.home}>
+          <Link href={routerLink.cfluent.home}>
             <img src={logo} alt="logo" />
             <Typography component="span" className={text.subtitle2}>
-              {brand.crypto.projectName}
+              {brand.cfluent.projectName}
             </Typography>
           </Link>
         </div>
       )}
       <Container maxWidth="lg" className={classes.innerWrap}>
         <Paper className={cx(classes.formBox, 'fragment-fadeUp')}>
-          <IconButton component={Link} href={routerLink.crypto.home} className={classes.backtohome} size="large">
+          <IconButton component={Link} href={routerLink.cfluent.home} className={classes.backtohome} size="large">
             <span>
               <i className="ion-ios-home-outline" />
               <i className="ion-ios-arrow-round-back" />
@@ -66,7 +66,7 @@ function AuthFrame(props) {
                     <div className={classes.logo}>
                       <img src={logo} alt="logo" />
                       <Typography className={text.subtitle2}>
-                        {brand.crypto.projectName}
+                        {brand.cfluent.projectName}
                       </Typography>
                     </div>
                     <Typography gutterBottom variant="h4" className={text.title2}>

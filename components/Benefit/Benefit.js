@@ -23,7 +23,7 @@ function Benefit() {
     <div className={classes.root}>
       <div className={classes.parallaxWrap}>
         <Parallax
-          bgImage={imgAPI.crypto[5]}
+          bgImage={imgAPI.cfluent[5]}
           bgImageAlt="benefit"
           strength={0}
         >
@@ -53,7 +53,7 @@ function Benefit() {
             <Grid item md={7}>
               <div>
                 <figure className={classes.img}>
-                  <img src={imgAPI.crypto[6]} alt="benefit" />
+                  <img src={imgAPI.cfluent[6]} alt="benefit" />
                 </figure>
               </div>
               {!isTablet && (

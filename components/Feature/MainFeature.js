@@ -98,7 +98,7 @@ function MainFeature() {
             </Typography>
             <Paper className={classes.video}>
               <figure>
-                <img src={imgAPI.crypto[4]} alt="cover" />
+                <img src={imgAPI.cfluent[4]} alt="cover" />
               </figure>
               <IconButton className={classes.playBtn} onClick={handleClickOpen} size="large">
                 <span className="ion-ios-play" />
@@ -122,7 +122,7 @@ function MainFeature() {
             <div className={classes.counter}>
               <div className={classes.lower}>
                 <Paper className={classes.paper}>
-                  <span className="ion-ios-ionic-outline" />
+                  <span className="ion-ios-at-outline" />
                   <div className={classes.textCounter}>
                     <Typography variant="h6">
                       +5
@@ -146,7 +146,7 @@ function MainFeature() {
               </div>
               <div className={classes.higher}>
                 <Paper className={classes.paper}>
-                  <span className="ion-ios-archive-outline" />
+                  <span className="ion-ios-chatbubbles-outline" />
                   <div className={classes.textCounter}>
                     <Typography variant="h6">
                       +20M
@@ -157,7 +157,7 @@ function MainFeature() {
                   </div>
                 </Paper>
                 <Paper className={classes.paper}>
-                  <span className="ion-ios-heart-outline" />
+                  <span className="ion-ios-globe-outline" />
                   <div className={classes.textCounter}>
                     <Typography variant="h6">
                       +75

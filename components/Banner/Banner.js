@@ -196,7 +196,7 @@ function Banner() {
             </Grid>
             <Grid item xs={12} md={4}>
               <figure className={classes.objectArt}>
-                <img src="/images/crypto/banner-art.gif" alt="illustration" />
+                <img src="/images/cfluent/banner-art.gif" alt="illustration" />
               </figure>
             </Grid>
           </Grid>
@@ -204,7 +204,7 @@ function Banner() {
       </Container>
       <div className={classes.decoBottom}>
         <svg>
-          <use xlinkHref="/images/crypto/deco-banner.svg#main" />
+          <use xlinkHref="/images/cfluent/deco-banner.svg#main" />
         </svg>
       </div>
     </div>

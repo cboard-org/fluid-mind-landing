@@ -7,7 +7,7 @@ import ButtonBase from '@mui/material/ButtonBase';
 import Link from '@mui/material/Link';
 import IconButton from '@mui/material/IconButton';
 import { useTranslation } from 'next-i18next';
-import logo from 'public/images/crypto-logo.svg';
+import logo from 'public/images/cfluent-logo.svg';
 import brand from 'public/text/brand';
 import imgApi from 'public/images/imgAPI';
 import SelectLang from '../LangSwitch/Select';
@@ -17,7 +17,7 @@ function Copyright() {
   return (
     <Typography variant="body2" display="block" color="textSecondary">
       &copy;&nbsp;
-      {brand.crypto.footerText}
+      {brand.cfluent.footerText}
     </Typography>
   );
 }
@@ -57,7 +57,7 @@ function Footer(props) {
             <div className={classes.logo}>
               <img src={logo} alt="logo" />
               <Typography variant="h6" color="textPrimary">
-                {brand.crypto.projectName}
+                {brand.cfluent.projectName}
               </Typography>
             </div>
             <Typography color="textPrimary" className={classes.footerDesc} gutterBottom>

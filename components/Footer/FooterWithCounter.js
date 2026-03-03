@@ -11,7 +11,7 @@ function FooterWithDeco(props) {
     <div className={classes.footerCounter}>
       <div className={classes.decoTop}>
         <svg>
-          <use xlinkHref="/images/crypto/deco-footer.svg#main" />
+          <use xlinkHref="/images/cfluent/deco-footer.svg#main" />
         </svg>
       </div>
       <Counter />
