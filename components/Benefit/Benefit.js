@@ -39,14 +39,10 @@ function Benefit() {
                   {t('benefit_title')}
                 </Typography>
                 <ul className={classes.list}>
-                  <li>{t('benefit_1')}</li>
                   <li>{t('benefit_2')}</li>
                   <li>{t('benefit_3')}</li>
                   <li>{t('benefit_4')}</li>
-                  <li>{t('benefit_5')}</li>
                   <li>{t('benefit_6')}</li>
-                  <li>{t('benefit_7')}</li>
-                  <li>{t('benefit_8')}</li>
                 </ul>
               </div>
             </Grid>

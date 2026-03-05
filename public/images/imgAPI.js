@@ -34,7 +34,7 @@ const imgAPI = {
     '/images/cfluent/promo-3.png',
     '/images/cfluent/promo-4.png',
     '/images/cfluent/video-thumbnail.png',
-    'https://via.placeholder.com/1280x677/204473/FFFFFF',
+    '/images/cfluent/benefit-bg.png',
     '/images/cfluent/cfluent_laptop.png'
   ],
 };
