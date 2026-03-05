@@ -98,36 +98,36 @@ function MoreFeature() {
             <Grid item sm={12}>
               <div className={cx(classes.text, classes.center)}>
                 <span className="ion-ios-flash-outline" />
-                <Title
-                  className={text.subtitle2}
-                  text={t('morefeature_title3')}
-                  align="center"
-                />
-                <Typography
-                  display="block"
-                  align="center"
-                  className={text.subtitle2}
-                >
-                  {t('morefeature_subtitle3')}
-                </Typography>
-              </div>
-              <Container maxWidth="md">
-                <Grid item md={6} xs={12}>
-                  <ScrollAnimation
-                    animateOnce
-                    animateIn="fadeInLeftShort"
-                    delay={300}
-                    duration={0.3}
+                <div className={classes.lastFeature}>
+                  <Title
+                    className={text.subtitle2}
+                    text={t('morefeature_title3')}
+                    align="center"
+                  />
+                  <Typography
+                    display="block"
+                    align="center"
+                    className={text.subtitle2}
                   >
-                    <figure className={classes.illustration}>
-                      <img
-                        src="/images/cfluent/illustration3.png"
-                        alt="feature"
-                      />
-                    </figure>
-                  </ScrollAnimation>
-                </Grid>
-              </Container>
+                    {t('morefeature_subtitle3')}
+                  </Typography>
+                  <Grid item md={7} xs={12} lg={8} style={{ marginTop: theme.spacing(2) }}>
+                    <ScrollAnimation
+                      animateOnce
+                      animateIn="fadeInLeftShort"
+                      delay={300}
+                      duration={0.3}
+                    >
+                      <figure className={classes.illustration}>
+                        <img
+                          src="/images/cfluent/illustration3.png"
+                          alt="feature"
+                        />
+                      </figure>
+                    </ScrollAnimation>
+                  </Grid>
+                </div>
+              </div>
             </Grid>
           </Grid>
         </div>

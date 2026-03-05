@@ -116,6 +116,16 @@ const featureStyles = makeStyles({ uniqId: 'feature' })((theme, _params, classes
       flexShrink: 3
     }
   },
+  lastFeature: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: theme.spacing(2),
+    alignItems: 'center',
+    justifyContent: 'center',
+    '& img': {
+      alignSelf: 'center',
+    },
+  },
   moreFeature: {
     position: 'relative',
     '& figure': {
